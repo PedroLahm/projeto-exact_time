@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* NAVBAR */
+
+/* brand */
+.navbar-brand{
+    font-weight: 900;
+    font-size: 26px;
+}
+
+/* form */
+form{
+    border: 1px solid #FFF;
+    border-radius: 2px;
+}
+
+input, 
+#search, 
+#heart, 
+#handbag, 
+#person{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+input::placeholder{
+    color: #FFF !important;
+    opacity: 1 !important;
+}
