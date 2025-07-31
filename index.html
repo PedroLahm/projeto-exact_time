@@ -1,27 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- CSS bootstrap -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <!-- ICONS bootstrap -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <!-- SCRIPT bootstrap -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
     <!-- CSS only -->
-     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!-- FAVICON -->
-     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <title>Exact Time</title>
+  </head>
 
-</head>
+  <body>
+    <!-- NAVBAR 1 -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">ExactTime</a>
 
-<body>
-    <h1 class="m-5">Olá mundo</h1>
-</body>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <form class="d-flex" role="search">
+              <input
+                type="search"
+                class="form-control me-2"
+                placeholder="Busque o seu relógio"
+                aria-label="Search"
+                required
+              />
+              <button type="submit" class="btn btn-outline-light">Pesquisar</button>
+            </form>
+            <div>
+                <button class="btn btn-outline-light"><i class="bi bi-person"></i></button>
+                <button class="btn btn-outline-light"><i class="bi bi-heart"></i></button>
+                <button class="btn btn-outline-light"><i class="bi bi-handbag"></i></button>
+            </div>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR 2 -->
+  </body>
 </html>
