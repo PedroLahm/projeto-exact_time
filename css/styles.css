@@ -3,10 +3,23 @@
 /* CONFIGURAÇÕES GERAIS */
 body {
   background-color: #252525;
+  color: #FFF !important;
 }
 
 .bg-primary {
   background-color: #252525 !important;
+}
+
+.secondary-bg-color{
+    background-color: #c09578;
+}
+
+.dark-bg-color{
+    background-color: #101010;
+}
+
+.light-bg-color{
+    background-color: #FCF5EB;
 }
 
 /* NAVBAR */
