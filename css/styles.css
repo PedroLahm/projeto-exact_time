@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 /* CONFIGURAÇÕES GERAIS */
+body{
+    background-color: #252525;
+}
+
 .bg-primary{
     background-color: #252525 !important;
 }
@@ -26,7 +30,7 @@
     background-color: #FFF;
 }
 
-.nav-link{
+#navbarFirst .nav-link{
     font-size: 18px;
 }
 
@@ -60,4 +64,16 @@ form input:focus{
     border-color: #FFF !important;
 }
 
-/*  */
+
+/* NAVBAR 2 */
+.bg-secondary{
+    background-color: #C09578 !important;
+}
+
+#navbarSecond a.nav-link{
+    font-weight: 500;
+}
+
+#navbarSecond a.nav-link:hover{
+    color: #dfdfdf !important;
+}
