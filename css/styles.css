@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* CONFIGURAÇÕES GERAIS */
+.bg-primary{
+    background-color: #252525 !important;
+}
+
+/* NAVBAR */
+.navbar,
+.navbar a,
+.navbar-brand{
+    color: #FFF !important;
+}
+
+.navbar-button,
+.navbar a.nav-link:hover{
+    color: #252525 !important;
+}
+
+.navbar-brand{
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.navbar-toggler{
+    background-color: #FFF;
+}
+
+.nav-link{
+    font-size: 18px;
+}
+
+/* formulario */
+form{
+    border: 1px solid #dfdfdf;
+}
+
+form button#search{
+    border: none;
+}
+
+form button#search:hover{
+    background-color: #252525;
+    color: #FFF;
+}
+
+form input{
+    background-color: #252525 !important;
+    color: #FFF !important;
+}
+
+form input::placeholder{
+    color: #FFF !important;
+    opacity: 1 !important;
+}
+
+form input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #FFF !important;
+}
+
+/*  */

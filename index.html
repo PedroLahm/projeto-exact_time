@@ -50,44 +50,81 @@
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
-       </button>
+        </button>
 
-       <div class="collapse navbar-collapse justify-content-between" id="navbarFirst">
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarFirst"
+        >
+          <form class="d-flex my-3 my-md-0 mx-auto p-1 p-md-2">
+            <button class="btn btn-outline-light" type="submit" id="search">
+              <span class="bi bi-search"></span>
+            </button>
 
-        <form class="d-flex my-3 my-md-0 mx-auto">
-          <button class="btn btn-outline-light" type="button">
-            <span class="bi bi-search"></span>
-          </button>
+            <input
+              type="search"
+              class="form-control me-1"
+              placeholder="Busque um relógio"
+              required
+            />
 
-          <input type="search" class="form-control me-1" placeholder="Busque um relógio" required>
+            <button class="btn btn-outline-light" type="submit">
+              Pesquisar
+            </button>
+          </form>
 
-          <button class="btn btn-outline-light" type="button">Pesquisar</button>
-        </form>
+          <ul
+            class="navbar-nav d-flex flex-row gap-5 gap-md-2 mt-3 mt-md-0 justify-content-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-light" aria-current="page">
+                <span class="bi bi-person" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Perfil"></span>
+              </a>
+            </li>
 
-        <ul class="navbar-nav d-flex flex-row gap-5 gap-md-2 mt-3 mt-md-0 justify-content-center">
-          <li class="nav-item">
-            <a href="#" class="nav-link btn btn-outline-light" aria-current="page">
-              <span class="bi bi-person"></span>
-            </a>
-          </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link btn btn-outline-light position-relative"
+              >
+                <span
+                  class="bi bi-heart"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Favoritos"
+                ></span>
+                <span
+                  class="position-absolute translate-middle badge rounded-pill bg-danger"
+                  >5</span
+                >
+              </a>
+            </li>
 
-          <li class="nav-item">
-            <a href="#" class="nav-link btn btn-outline-light">
-              <span class="bi bi-heart"></span>
-            </a>
-          </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link btn btn-outline-light position-relative"
+              >
+                <span
+                  class="bi bi-bag"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Bolsa de compras"
+                ></span>
 
-          <li class="nav-item">
-            <a href="#" class="nav-link btn btn-outline-light">
-              <span class="bi bi-bag"></span>
-              <b>R$1290,12</b>
-            </a>
-          </li>
-        </ul>
-       </div>
+                <span
+                  class="position-absolute translate-middle badge rounded-pill bg-danger"
+                  >8</span
+                >
+                <b>R$1290,12</b>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     <!-- NAVBAR 2 -->
+     
     <!-- CARROSSEL -->
   </body>
 </html>
