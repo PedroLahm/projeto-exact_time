@@ -1,79 +1,111 @@
 @charset "UTF-8";
 
 /* CONFIGURAÇÕES GERAIS */
-body{
-    background-color: #252525;
+body {
+  background-color: #252525;
 }
 
-.bg-primary{
-    background-color: #252525 !important;
+.bg-primary {
+  background-color: #252525 !important;
 }
 
 /* NAVBAR */
 .navbar,
 .navbar a,
-.navbar-brand{
-    color: #FFF !important;
+.navbar-brand {
+  color: #fff !important;
 }
 
 .navbar-button,
-.navbar a.nav-link:hover{
-    color: #252525 !important;
+.navbar a.nav-link:hover {
+  color: #252525 !important;
 }
 
-.navbar-brand{
-    font-weight: 900;
-    font-size: 26px;
+.navbar-brand {
+  font-weight: 900;
+  font-size: 26px;
 }
 
-.navbar-toggler{
-    background-color: #FFF;
+.navbar-toggler {
+  background-color: #fff;
 }
 
-#navbarFirst .nav-link{
-    font-size: 18px;
+#navbarFirst .nav-link {
+  font-size: 18px;
 }
 
 /* formulario */
-form{
-    border: 1px solid #dfdfdf;
+form {
+  border: 1px solid #dfdfdf;
 }
 
-form button#search{
-    border: none;
+form button#search {
+  border: none;
 }
 
-form button#search:hover{
-    background-color: #252525;
-    color: #FFF;
+form button#search:hover {
+  background-color: #252525;
+  color: #fff;
 }
 
-form input{
-    background-color: #252525 !important;
-    color: #FFF !important;
+form input {
+  background-color: #252525 !important;
+  color: #fff !important;
 }
 
-form input::placeholder{
-    color: #FFF !important;
-    opacity: 1 !important;
+form input::placeholder {
+  color: #fff !important;
+  opacity: 1 !important;
 }
 
-form input:focus{
-    outline: none !important;
-    box-shadow: none !important;
-    border-color: #FFF !important;
+form input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #fff !important;
 }
-
 
 /* NAVBAR 2 */
-.bg-secondary{
-    background-color: #C09578 !important;
+.bg-secondary {
+  background-color: #c09578 !important;
 }
 
-#navbarSecond a.nav-link{
-    font-weight: 500;
+#navbarSecond a.nav-link {
+  font-weight: 500;
+  font-size: 18px;
 }
 
-#navbarSecond a.nav-link:hover{
-    color: #dfdfdf !important;
+#navbarSecond a.nav-link:hover {
+  color: #ededed !important;
 }
+
+
+/* CARROSSEL */
+#carouselFirst {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  #carouselFirst {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 992px){
+    #carouselFirst{
+        max-width: 75%;
+    }
+
+    #carouselFirst .carousel-item img{
+        height: 550px;
+    }
+}
+
+.carousel-caption{
+    background-color: #252525;
+}
+
+.carousel-caption h5{
+    font-size: 52px;
+}
+
