@@ -110,7 +110,7 @@ form input:focus {
     }
 
     #carouselFirst .carousel-item img{
-        height: 550px;
+        height: 600px;
     }
 }
 
@@ -122,3 +122,5 @@ form input:focus {
     font-size: 52px;
 }
 
+
+/* MINI-BANNERS */
