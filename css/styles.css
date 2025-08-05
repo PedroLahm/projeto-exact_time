@@ -26,6 +26,10 @@ body {
     color: #6E6B60;
 }
 
+.color-secondary{
+    color: #c09578;
+}
+
 .color-light{
     color: #FCF5EB;;
 }
@@ -109,13 +113,16 @@ form input:focus {
 
 @media (min-width: 768px) {
   #carouselFirst {
-    max-width: 80%;
+    max-width: 94%;
+    box-shadow: 3px 3px 10px #00000071;
+    margin-bottom: 380px;
   }
 }
 
 @media (min-width: 992px){
     #carouselFirst{
         max-width: 75%;
+        box-shadow: 3px 3px 10px #00000071;
     }
 
     #carouselFirst .carousel-item img{
@@ -135,7 +142,6 @@ form input:focus {
 /* MINI-BANNERS */
 #mini-banners{
     position: static;
-    margin-top: 2rem;
 }
 
 #mini-banners h2{
@@ -160,8 +166,20 @@ form input:focus {
 
 @media(min-width: 768px){
     #mini-banners{
+        margin-top: -350px;
+    }
+
+    #mini-banners .mini-banner{
+        margin-bottom: 20px;
+        border-radius: 3px;
+        box-shadow: 3px 3px 10px #00000071;
+    }
+}
+
+@media(min-width: 992px){
+    #mini-banners{
     position: absolute;
-    bottom: -370px;
+    bottom: -385px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
@@ -171,6 +189,7 @@ form input:focus {
         max-width: 25%;
         height: 350px;
         border-radius: 3px;
+        box-shadow: 3px 3px 10px #00000071;
     }
 
     #mini-banners .mini-banner img{
@@ -180,4 +199,11 @@ form input:focus {
     #mini-banners .mini-banner .img{
         width: 35%;
     }
+}
+
+
+/* BEST-SELLERS */
+#best-sellers h2{
+    text-transform: uppercase;
+    font-weight: 900;
 }
