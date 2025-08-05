@@ -22,6 +22,14 @@ body {
     background-color: #FCF5EB;
 }
 
+.color-primary{
+    color: #6E6B60;
+}
+
+.color-light{
+    color: #FCF5EB;;
+}
+
 /* NAVBAR */
 .navbar,
 .navbar a,
@@ -64,6 +72,7 @@ form button#search:hover {
 form input {
   background-color: #252525 !important;
   color: #fff !important;
+  border: none !important;
 }
 
 form input::placeholder {
@@ -124,3 +133,51 @@ form input:focus {
 
 
 /* MINI-BANNERS */
+#mini-banners{
+    position: static;
+    margin-top: 2rem;
+}
+
+#mini-banners h2{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#mini-banners a{
+    font-weight: 700;
+}
+
+#mini-banners .mini-banner{
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+}
+
+#mini-banners .mini-banner img{
+    width: 40%;
+    max-width: 120px;
+}
+
+@media(min-width: 768px){
+    #mini-banners{
+    position: absolute;
+    bottom: -370px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    }
+
+    #mini-banners .mini-banner{
+        max-width: 25%;
+        height: 350px;
+        border-radius: 3px;
+    }
+
+    #mini-banners .mini-banner img{
+        width: 40%;
+    }
+
+    #mini-banners .mini-banner .img{
+        width: 35%;
+    }
+}
