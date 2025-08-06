@@ -254,3 +254,29 @@ form input:focus {
         font-size: 19px;
     }
 }
+
+
+/* RELÓGIO X */
+#relogio-x .col{
+    text-align: center;
+}
+
+#relogio-x .col p.color-secondary{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#relogio-x .col h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 110px;
+}
+
+#relogio-x .col button{
+    font-weight: bold;
+}
+
+#relogio-x .col img{
+    width: 50%;
+}
