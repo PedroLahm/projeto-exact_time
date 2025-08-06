@@ -121,12 +121,18 @@ form input:focus {
 
 @media (min-width: 992px){
     #carouselFirst{
-        max-width: 75%;
+        max-width: 93%;
         box-shadow: 3px 3px 10px #00000071;
     }
 
     #carouselFirst .carousel-item img{
         height: 600px;
+    }
+}
+
+@media (min-width: 1440px){
+    #carouselFirst{
+        max-width: 75%;
     }
 }
 
@@ -170,13 +176,13 @@ form input:focus {
     }
 
     #mini-banners .mini-banner{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         border-radius: 3px;
         box-shadow: 3px 3px 10px #00000071;
     }
 }
 
-@media(min-width: 992px){
+@media(min-width: 1440px){
     #mini-banners{
     position: absolute;
     bottom: -385px;
@@ -206,4 +212,45 @@ form input:focus {
 #best-sellers h2{
     text-transform: uppercase;
     font-weight: 900;
+    font-size: 40px;
+}
+
+#best-sellers .row .col{
+    border: 1px solid #101010;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#best-sellers img{
+    width: 60%;
+    max-width: 170px;
+    margin-bottom: 25px;
+}
+
+#best-sellers h3{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+#best-sellers p.color-secondary{
+    font-weight: 900 !important;
+    font-size: 18px;
+}
+
+@media(max-width: 425px){
+    #best-sellers h2{
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 10px !important;
+    }
+}
+
+@media(max-width: 1024px){
+    #best-sellers h3{
+        font-size: 19px;
+    }
 }
