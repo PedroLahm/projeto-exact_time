@@ -280,3 +280,31 @@ form input:focus {
 #relogio-x .col img{
     width: 50%;
 }
+
+@media(max-width: 1024px){
+    #relogio-x .col img{
+        width: 80%;
+    }
+}
+
+@media(max-width: 768px){
+    #relogio-x .col h2{
+        font-size: 80px;
+    }
+}
+
+@media(max-width: 426px){
+    #relogio-x .col p.color-secondary{
+        font-size: 16px;
+    }
+
+    #relogio-x .col h2{
+        font-size: 55px;
+    }
+
+    #relogio-x .col img{
+        width: 60%;
+    }
+}
+
+
