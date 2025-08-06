@@ -308,3 +308,7 @@ form input:focus {
 }
 
 
+/* NOVIDADES */
+#novidades .row .col img{
+    width: 35%;
+}
