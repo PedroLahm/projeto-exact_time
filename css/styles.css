@@ -399,5 +399,44 @@ form input:focus {
 
 /* GALERIA */
 #gallery .row .img-gallery{
-    back
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    border: 3px solid #101010;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#gallery .row .img-gallery:hover{
+    border-color: #c09578;
+}
+
+@media(max-width: 425px){
+    #gallery .row .img-gallery{
+        height: 225px;
+    }
+}
+
+#insta1{
+    background-image: url(../img/insta1.jpg);
+}
+
+#insta2{
+    background-image: url(../img/insta2.jpg);
+}
+
+#insta3{
+    background-image: url(../img/insta3.jpg);
+}
+
+#insta4{
+    background-image: url(../img/insta4.jpg);
+}
+
+#insta5{
+    background-image: url(../img/insta5.jpg);
+}
+
+#insta6{
+    background-image: url(../img/insta6.jpg);
 }
