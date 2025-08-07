@@ -333,6 +333,10 @@ form input:focus {
     padding: 10px;
 }
 
+#novidades .row .col p:nth-of-type(1){
+    font-size: 18px !important;
+}
+
 #novidades #novidades-banner h2{
     text-transform: uppercase;
     font-weight: 700;
@@ -391,3 +395,6 @@ form input:focus {
         height: 300px;
     }
 }
+
+
+/* GALERIA */
