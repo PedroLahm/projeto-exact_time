@@ -34,36 +34,7 @@ body {
   color: #fcf5eb;
 }
 
-/* formulario */
-form {
-  border: 1px solid #dfdfdf;
-}
 
-form button#search {
-  border: none;
-}
-
-form button#search:hover {
-  background-color: #252525;
-  color: #fff;
-}
-
-form input {
-  background-color: #252525 !important;
-  color: #fff !important;
-  border: none !important;
-}
-
-form input::placeholder {
-  color: #fff !important;
-  opacity: 1 !important;
-}
-
-form input:focus {
-  outline: none !important;
-  box-shadow: none !important;
-  border-color: #fff !important;
-}
 
 /* NAVBAR */
 .navbar,
@@ -84,6 +55,32 @@ form input:focus {
 
 .navbar-toggler {
   background-color: #fff;
+}
+
+/* formulario */
+form {
+  border: 1px solid #dfdfdf;
+}
+
+form button.button-icon {
+  border: none;
+}
+
+form input {
+  background-color: #252525 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+form input::placeholder {
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
+form input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #fff !important;
 }
 
 #navbarFirst .nav-link {
@@ -492,12 +489,49 @@ form input:focus {
   }
 }
 
-/* search-section */
-#search-section a{
+/* mail-section */
+#mail-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+#mail-section .button-icon{
+  color: white;
+  font-size: 22px;
+}
+
+#mail-section form{
+  display: flex;
+}
+
+#mail-section form input{
+  background-color: #101010 !important;
+}
+
+#mail-section form input::placeholder{
+  color: #FFF;
+}
+
+#mail-section a{
   color: #6e6b60;
   text-decoration: none;
 }
 
-#search-section a:hover{
+#mail-section a:hover{
   text-decoration: underline;
+}
+
+#mail-section .social-media-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+#mail-section .social-media-icons a{
+  font-size: 22px;
 }
