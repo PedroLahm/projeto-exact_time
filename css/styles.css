@@ -477,6 +477,12 @@ form input:focus {
   font-size: 28px;
 }
 
+@media(max-width: 769px){
+  #footer-links #watchtime p.color-secondary{
+    font-size: 22px;
+  }
+}
+
 @media (max-width: 426px) {
   #footer-links #watchtime{
     border-top: 1px solid #6e6b60 !important;
