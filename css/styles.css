@@ -435,6 +435,7 @@ form input:focus {
 }
 
 /* FOOTER */
+/* footer-links */
 #footer-links #paginas,
 #footer-links #watchtime,
 #footer-links #informacoes {
@@ -446,20 +447,20 @@ form input:focus {
   border-bottom: 2px solid #6e6b60;
 }
 
-#footer-links #watchtime{
-    border: 2px solid #6e6b60;
-    border-top: none;
+#footer-links #watchtime {
+  border: 2px solid #6e6b60;
+  border-top: none;
 }
 
 #footer-links #paginas h2,
 #footer-links #watchtime h2,
 #footer-links #informacoes h2 {
-    text-transform: uppercase;
-    margin-bottom: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
-#footer-links #watchtime h2{
-    font-weight: 900;
+#footer-links #watchtime h2 {
+  font-weight: 900;
 }
 
 #footer-links #paginas a,
@@ -473,3 +474,22 @@ form input:focus {
 #footer-links #informacoes a:hover {
   color: #c09578;
 }
+
+#footer-links #watchtime p.color-secondary{
+  font-weight: 700;
+  font-size: 28px;
+}
+
+@media (max-width: 426px) {
+  #footer-links #watchtime{
+    border-top: 1px solid #6e6b60 !important;
+    border-left: none;
+    border-right: none;
+  }
+
+  #footer-links #pagina{
+    border: none !important;
+  }
+}
+
+/* search-section */
