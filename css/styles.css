@@ -34,31 +34,6 @@ body {
   color: #fcf5eb;
 }
 
-/* NAVBAR */
-.navbar,
-.navbar a,
-.navbar-brand {
-  color: #fff !important;
-}
-
-.navbar-button,
-.navbar a.nav-link:hover {
-  color: #252525 !important;
-}
-
-.navbar-brand {
-  font-weight: 900;
-  font-size: 26px;
-}
-
-.navbar-toggler {
-  background-color: #fff;
-}
-
-#navbarFirst .nav-link {
-  font-size: 18px;
-}
-
 /* formulario */
 form {
   border: 1px solid #dfdfdf;
@@ -88,6 +63,31 @@ form input:focus {
   outline: none !important;
   box-shadow: none !important;
   border-color: #fff !important;
+}
+
+/* NAVBAR */
+.navbar,
+.navbar a,
+.navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-button,
+.navbar a.nav-link:hover {
+  color: #252525 !important;
+}
+
+.navbar-brand {
+  font-weight: 900;
+  font-size: 26px;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+#navbarFirst .nav-link {
+  font-size: 18px;
 }
 
 /* NAVBAR 2 */
@@ -493,3 +493,11 @@ form input:focus {
 }
 
 /* search-section */
+#search-section a{
+  color: #6e6b60;
+  text-decoration: none;
+}
+
+#search-section a:hover{
+  text-decoration: underline;
+}
